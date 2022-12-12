@@ -42,3 +42,16 @@ aside nav {
 :root {
     --debug-border: 1px dashed black
 }
+
+/*********************************************** 
+ MEDIAQUERY
+***********************************************/
+@media screen and (max-width: 768px) {
+    aside {
+        width: 4rem;
+    }
+
+    #main-screen {
+        width: calc(100% - 4rem);
+    }
+}
