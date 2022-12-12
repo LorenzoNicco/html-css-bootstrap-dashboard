@@ -1,0 +1,24 @@
+/*********************************************** 
+ NAVBAR
+***********************************************/
+.debug header {
+    background-color: coral;
+}
+
+.debug header nav > div {
+    background-color: aqua;
+    border: var(--debug-border);
+}
+
+/*********************************************** 
+ MAIN
+***********************************************/
+/* ASIDE */
+.debug aside {
+    background-color: navy;
+}
+
+/* PARTE CENTRALE */
+.debug #main-screen {
+    background-color: yellowgreen;
+}
