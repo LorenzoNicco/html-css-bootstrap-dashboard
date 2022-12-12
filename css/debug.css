@@ -18,7 +18,17 @@
     background-color: navy;
 }
 
+.debug aside li {
+    background-color: beige;
+    border: var(--debug-border);
+}
+
 /* PARTE CENTRALE */
 .debug #main-screen {
     background-color: yellowgreen;
+}
+
+.debug #badges .row > div {
+    background-color:darkgoldenrod;
+    border: var(--debug-border);
 }
