@@ -15,90 +15,89 @@
     </head>
     <body class="debug">
         <!-- INTERFACCIA COMPLETA -->
-        <div>
-            <!-- NAVBAR -->
-            <header>
-                <div class="container-fluid">
-                    <nav class="row p-2">
-                        <div class="col-1">CONTENUTO</div>
-                        
-                        <div class="col">CONTENUTO</div>
-    
-                        <div class="col-1">CONTENUTO</div>
-                    </nav>
-                </div>
-            </header>
+        <!-- NAVBAR -->
+        <header>
+            <div class="container-fluid">
+                <nav class="row p-2">
+                    <div class="col-1">CONTENUTO</div>
+                    
+                    <div class="col">CONTENUTO</div>
 
-            <!-- VIEWPORT -->
-            <main class="d-flex">
-                <!-- NAV LATERALE -->
-                <aside>
-                    <nav class="py-4 px-2">
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#">LINK</a>
-                            </li>
-                            <li>
-                                <a href="#">LINK</a>
-                            </li>
-                            <li>
-                                <a href="#">LINK</a>
-                            </li>
-                            <li>
-                                <a href="#">LINK</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </aside>
+                    <div class="col-1">CONTENUTO</div>
+                </nav>
+            </div>
+        </header>
 
-                <!-- PARTE CENTRALE -->
-                <section id="main-screen">
-                    <!-- sezione badges e studenti -->
-                    <section id="badges" class="bg-primary">
-                        <div class="container p-2">
-                            <div class="row">
-                                <div class="col-6">
-                                    CONTENUTO
-                                </div>
+        <!-- VIEWPORT -->
+        <main class="d-flex">
+            <!-- NAV LATERALE -->
+            <aside>
+                <nav class="py-4 px-2 d-flex flex-column justify-content-between">
+                    <div class="d-flex flex-column">
+                        <a href="#">LINK</a>
+                        <a href="#">LINK</a>
+                        <a href="#">LINK</a>
+                    </div>
 
-                                <div class="col-3">
-                                    CONTENUTO
-                                </div>
+                    <div>
+                        <a href="#">LINK</a>
+                    </div>
+                </nav>
+            </aside>
 
-                                <div class="col-3 text-end">
-                                    CONTENUTO
-                                </div>
+            <!-- PARTE CENTRALE -->
+            <section id="main-screen" class="overflow-auto">
+                <!-- sezione badges e studenti -->
+                <section id="badges" class="bg-primary">
+                    <div class="container p-2">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-6">
+                                CONTENUTO
+                            </div>
+
+                            <div class="col-sm-12 col-md-4 col-lg-3">
+                                CONTENUTO
+                            </div>
+
+                            <div class="col-sm-12 col-md-4 col-lg-3 text-end">
+                                CONTENUTO
                             </div>
                         </div>
-                    </section>
-
-                    <!-- colonna classi/faq -->
-                    <div>
-                        <!-- sezione prossime classi -->
-                        <section id="next-classes">
-
-                        </section>
-
-                        <!-- sezione faq -->
-                        <section id="faq">
-
-                        </section>
-                    </div>
-
-                    <!-- colonna todo/chart -->
-                    <div>
-                        <!-- sezione todo -->
-                        <section id="todo">
-
-                        </section>
-
-                        <!-- sezione chart -->
-                        <section id="chart">
-                            
-                        </section>
                     </div>
                 </section>
-            </main>
-        </div>
+
+                
+                <div class="central-cont container">
+                    <div class="row">
+                        <!-- colonna classi/faq -->
+                        <div class="col-md-12 col-lg-6">
+                            <!-- sezione prossime classi -->
+                            <section id="next-classes">
+                                <div class="content-placeholder">CONTENUTO</div>
+                            </section>
+
+                            <!-- sezione faq -->
+                            <section id="faq">
+                                <div class="content-placeholder">CONTENUTO</div>
+                            </section>
+                        </div>
+
+                        <!-- colonna todo/chart -->
+                        <div class="col-md-12 col-lg-6">
+                            <!-- sezione todo -->
+                            <section id="todo">
+                                <div class="content-placeholder">CONTENUTO</div>
+                            </section>
+
+                            <!-- sezione chart -->
+                            <section id="chart">
+                                <div class="content-placeholder">CONTENUTO</div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
     </body>
 </html>

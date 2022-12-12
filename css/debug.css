@@ -18,7 +18,7 @@
     background-color: navy;
 }
 
-.debug aside li {
+.debug aside a {
     background-color: beige;
     border: var(--debug-border);
 }
@@ -28,7 +28,23 @@
     background-color: yellowgreen;
 }
 
+.debug #main-screen .central-cont {
+    background-color: cornsilk;
+}
+
+.debug .central-cont > .row > div {
+    background-color: coral;
+    height: 500px;
+    border: var(--debug-border);
+}
+
 .debug #badges .row > div {
     background-color:darkgoldenrod;
     border: var(--debug-border);
+}
+
+.debug .content-placeholder {
+    background-color: chocolate;
+    border: var(--debug-border);
+    margin: 1rem 0;
 }
