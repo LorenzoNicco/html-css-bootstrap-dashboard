@@ -74,6 +74,12 @@ aside li i {
 /* sezione prossime classi */
 .table img {
     height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.table tr:not(.titles):hover {
+    background-color: lightgray;
 }
 
 /*********************************************** 
