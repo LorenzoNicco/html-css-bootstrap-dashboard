@@ -18,8 +18,8 @@
         <!-- NAVBAR -->
         <header class="d-flex align-items-center bg-light">
             <div class="container-fluid">
-                <nav class="row align-items-centerp-2 bg-white">
-                    <div class="col-2 d-flex align-items-center">
+                <nav class="row align-items-center bg-white">
+                    <div class="col-auto d-flex align-items-center">
                         <img src="img/logo.svg" alt="Logo pic">
                     </div>
                     
@@ -28,16 +28,16 @@
                         <input type="text" class="form-control my-bg-lightgray border-start-0" placeholder="Prova a cercare: Lezioni di Laravel">
                     </div>
 
-                    <div class="col-2">
-                        <button class="btn">
+                    <div class="col-auto">
+                        <button class="btn my-media-apparence">
                             <i class="fa-solid fa-list-ul"></i>
                         </button>
 
-                        <button class="btn">
+                        <button class="btn my-media-apparence">
                             <i class="fa-solid fa-circle-question"></i>
                         </button>
 
-                        <button class="btn">
+                        <button class="btn my-media-apparence">
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </button>
 
@@ -83,61 +83,66 @@
             </aside>
 
             <!-- PARTE CENTRALE -->
-            <section id="main-screen" class="container-fluid overflow-auto">
-                <div class="row">
-                    <!-- sezione badges e studenti -->
-                    <section id="badges" class="col-12 bg-primary">
-                        <div class="container-fluid py-2">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-4 col-lg-6">
-                                    CONTENUTO
-                                </div>
+            <section id="main-screen" class="overflow-auto">
+                <!-- sezione badges e studenti -->
+                <section id="badges" class="bg-primary">
+                    <div class="container-fluid py-2">
+                        <div class="row text-white">
+                            <div class="col-12 col-sm-4 col-lg-6 my-3">
+                                <h1 class="d-inline-block fs-2">Boolean</h1> <span class="badge rounded-pill my-badge-bg-color fw-light">Piano Blaze</span>
 
-                                <div class="col-sm-12 col-md-4 col-lg-3">
-                                    CONTENUTO
-                                </div>
+                                <br>
 
-                                <div class="col-sm-12 col-md-4 col-lg-3 text-end">
-                                    CONTENUTO
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    
-                    <div class="central-cont col-12">
-                        <div class="row">
-                            <!-- colonna classi/faq -->
-                            <div class="col-md-12 col-lg-6">
-                                <!-- sezione prossime classi -->
-                                <section id="next-classes">
-                                    <div class="content-placeholder">CONTENUTO</div>
-                                </section>
-
-                                <!-- sezione faq -->
-                                <section id="faq">
-                                    <div class="content-placeholder">CONTENUTO</div>
-                                </section>
+                                <span class="badge rounded-pill my-badge-bg-color fw-light">3 App</span> <i class="fa-solid fa-angles-right"></i> <span class="badge rounded-pill my-badge-bg-color fw-light my-media-apparence">Boolean mobile app</span> <span class="badge rounded-pill my-badge-bg-color fw-light my-media-apparence">Boolean web app</span> <span class="badge rounded-pill my-badge-bg-color fw-light my-media-apparence">Boolean blog app</span>
                             </div>
 
-                            <!-- colonna todo/chart -->
-                            <div class="col-md-12 col-lg-6">
-                                <!-- sezione todo -->
-                                <section id="todo">
-                                    <div class="content-placeholder">CONTENUTO</div>
-                                </section>
+                            <div class="col-12 col-sm-4 col-lg-4 my-3">
+                                <span>Studenti online negl ultimi 30 minuti</span>
 
-                                <!-- sezione chart -->
-                                <section id="chart">
-                                    <div class="content-placeholder">CONTENUTO</div>
-                                </section>
+                                <br>
+
+                                <span class="fs-2">125</span>
+                            </div>
+
+                            <div class="col-12 order-first col-sm-4 order-sm-last col-lg-2 lh-base my-3">
+                                <span class="align-middle">Nuovo studente</span>
+
+                                <i class="fa-regular fa-square-plus fa-3x align-middle"></i>
                             </div>
                         </div>
                     </div>
+                </section>
+
+                <div class="central-cont container-fluid">
+                    <div class="row">
+                        <!-- colonna classi/faq -->
+                        <div class="col-12 col-lg-8">
+                            <!-- sezione prossime classi -->
+                            <section id="next-classes">
+                                <div class="content-placeholder">CONTENUTO</div>
+                            </section>
+
+                            <!-- sezione faq -->
+                            <section id="faq">
+                                <div class="content-placeholder">CONTENUTO</div>
+                            </section>
+                        </div>
+
+                        <!-- colonna todo/chart -->
+                        <div class="col-12 col-lg-4">
+                            <!-- sezione todo -->
+                            <section id="todo">
+                                <div class="content-placeholder">CONTENUTO</div>
+                            </section>
+
+                            <!-- sezione chart -->
+                            <section id="chart">
+                                <div class="content-placeholder">CONTENUTO</div>
+                            </section>
+                        </div>
+                    </div>
                 </div>
-                
             </section>
         </main>
-        
     </body>
 </html>
