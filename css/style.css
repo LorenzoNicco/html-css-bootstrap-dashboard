@@ -66,6 +66,11 @@ aside li i {
     background-color: #165bba;
 }
 
+#plus-button:hover {
+    background-color: white;
+    color: black;
+}
+
 .offcanvas-size {
     width: 50% !important;
 }

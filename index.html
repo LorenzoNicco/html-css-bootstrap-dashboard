@@ -31,21 +31,29 @@
                     </div>
 
                     <div class="col-auto">
-                        <button class="btn my-media-apparence-md">
+                        <button class="btn border-0 my-media-apparence-md">
                             <i class="fa-solid fa-list-ul"></i>
                         </button>
 
-                        <button class="btn my-media-apparence-md">
+                        <button class="btn border-0 my-media-apparence-md">
                             <i class="fa-solid fa-circle-question"></i>
                         </button>
 
-                        <button class="btn my-media-apparence-md">
+                        <button class="btn border-0 my-media-apparence-md">
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </button>
 
-                        <button class="btn text-warning">
-                            <i class="fa-solid fa-bell"></i>
-                        </button>
+                        <div class="dropdown d-inline-block">
+                            <button class="btn border-0 text-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -123,11 +131,12 @@
                             <div class="col-12 order-first col-sm-4 order-sm-last col-lg-2 lh-base my-3">
                                 <span class="align-middle">Nuovo studente</span>
 
-                                <button class="btn btn-primary border border-white rounded-3 ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <button id="plus-button" class="btn btn-primary border border-white rounded-3 ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                     <i class="fa-solid fa-plus"></i>
                                 </button>
 
-                                <div class="offcanvas offcanvas-end offcanvas-size" tabindex="-1" id="offcanvasExample" aria-labelledby="#offcanvasExampleLabel"> <!--inizio offcanvas-->
+                                <!--inizio offcanvas-->
+                                <div class="offcanvas offcanvas-end offcanvas-size" tabindex="-1" id="offcanvasExample" aria-labelledby="#offcanvasExampleLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title text-dark" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -244,7 +253,7 @@
                                         <table class="table">
                                             <thead>
                                               <tr class="titles text-center">
-                                                <th scope="col"  class="text-start">Nome</th>
+                                                <th scope="col"  class="text-start w-50">Nome</th>
                                                 <th scope="col" class="my-media-apparence-sm">Data inizio</th>
                                                 <th scope="col" class="my-media-apparence-xs">ROI</th>
                                                 <th scope="col">Stato</th>
@@ -254,7 +263,7 @@
 
                                             <tbody>
                                               <tr class="text-center">
-                                                <th scope="row" class="text-start" class="text-start">
+                                                <th scope="row" class="text-start w-50">
                                                     <img src="img/class-avatar.jpg" alt="Avatar pic">
 
                                                     <span>Classe 75</span>
@@ -276,7 +285,7 @@
                                               </tr>
 
                                               <tr class="text-center">
-                                                <th scope="row" class="text-start">
+                                                <th scope="row" class="text-start w-50">
                                                     <img src="img/class-avatar.jpg" alt="Avatar pic">
 
                                                     <span>Classe 75</span>
@@ -298,7 +307,7 @@
                                               </tr>
 
                                               <tr class="text-center">
-                                                <th scope="row" class="text-start">
+                                                <th scope="row" class="text-start w-50">
                                                     <img src="img/class-avatar.jpg" alt="Avatar pic">
 
                                                     <span>Classe 75</span>
@@ -320,7 +329,7 @@
                                               </tr>
 
                                               <tr class="text-center">
-                                                <th scope="row" class="text-start">
+                                                <th scope="row" class="text-start w-50">
                                                     <img src="img/class-avatar.jpg" alt="Avatar pic">
 
                                                     <span>Classe 75</span>
@@ -342,7 +351,7 @@
                                               </tr>
 
                                               <tr class="text-center">
-                                                <th scope="row" class="text-start">
+                                                <th scope="row" class="text-start w-50">
                                                     <img src="img/class-avatar.jpg" alt="Avatar pic">
 
                                                     <span>Classe 75</span>
@@ -364,7 +373,7 @@
                                               </tr>
 
                                               <tr class="text-center">
-                                                <th scope="row" class="text-start">
+                                                <th scope="row" class="text-start w-50">
                                                     <img src="img/class-avatar.jpg" alt="Avatar pic">
 
                                                     <span>Classe 75</span>
@@ -386,7 +395,7 @@
                                               </tr>
 
                                               <tr class="text-center">
-                                                <th scope="row" class="text-start">
+                                                <th scope="row" class="text-start w-50">
                                                     <img src="img/class-avatar.jpg" alt="Avatar pic">
 
                                                     <span>Classe 75</span>
@@ -408,7 +417,7 @@
                                               </tr>
 
                                               <tr class="text-center">
-                                                <th scope="row" class="text-start">
+                                                <th scope="row" class="text-start w-50">
                                                     <img src="img/class-avatar.jpg" alt="Avatar pic">
 
                                                     <span>Classe 75</span>
