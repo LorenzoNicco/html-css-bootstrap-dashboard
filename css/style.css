@@ -66,6 +66,10 @@ aside li i {
     background-color: #165bba;
 }
 
+.offcanvas-size {
+    width: 50% !important;
+}
+
 /* sezione centrale */
 .central-cont {
     width: 100%;
@@ -107,6 +111,10 @@ aside li i {
 
     .my-header-logo > img:last-child {
         display: block;
+    }
+
+    .offcanvas-size {
+        width: 100% !important;
     }
     
 }
