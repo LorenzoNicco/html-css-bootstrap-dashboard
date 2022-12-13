@@ -77,4 +77,9 @@ aside nav {
     .my-media-apparence {
         display: none;
     }
+
+    .my-header-logo > img:last-child {
+        display: block;
+    }
+    
 }
