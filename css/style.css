@@ -43,6 +43,7 @@ aside nav {
     height: 100%;
 }
 
+/* sezione badges */
 #badges {
     width: 100%;
 }
@@ -51,8 +52,14 @@ aside nav {
     background-color: #165bba;
 }
 
+/* sezione centrale */
 .central-cont {
     width: 100%;
+}
+
+/* sezione prossime classi */
+.table img {
+    height: 2rem;
 }
 
 /*********************************************** 
