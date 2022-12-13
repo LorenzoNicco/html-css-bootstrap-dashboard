@@ -18,6 +18,11 @@ header {
     background-color: #e5e5e5;
 }
 
+.my-header-logo > img:last-child {
+    display: none;
+    height: 2.5rem;
+}
+
 /*********************************************** 
  MAIN
 ***********************************************/
@@ -81,7 +86,7 @@ aside nav {
         width: calc(100% - 4rem);
     }
 
-    .my-media-apparence {
+    .my-media-apparence-md {
         display: none;
     }
 
@@ -89,4 +94,16 @@ aside nav {
         display: block;
     }
     
+}
+
+@media screen and (max-width: 768px) {
+    .my-media-apparence-sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .my-media-apparence-xs {
+        display: none;
+    }
 }
